@@ -38,7 +38,7 @@ const Login = () => {
 
 ReactDOM.render((
   <Router>
-  
+    <React.Fragment>
       <Route path="/" render={Home} />
       <Route exact path="/about" render={About} />
       <Route exact path="/login" render={Login} />
