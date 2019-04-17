@@ -14,3 +14,9 @@ ReactDOM.render(
   <Home />,
   document.getElementById('root')
 );
+ReactDOM.render((
+  <Router>
+    <Route path="/" render={Home} />
+  </Router>),
+  document.getElementById('root')
+);
