@@ -42,7 +42,7 @@ ReactDOM.render((
       <Route path="/" render={Home} />
       <Route exact path="/about" render={About} />
       <Route exact path="/login" render={Login} />
-      
+    </React.Fragment>    
   </Router>),
   document.getElementById('root')
 );
