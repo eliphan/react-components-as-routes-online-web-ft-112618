@@ -26,6 +26,7 @@ const Navbar = () =>
         background: 'darkblue'
       }}
     >About</NavLink>
+    
     <NavLink
       to="/login"
       exact
