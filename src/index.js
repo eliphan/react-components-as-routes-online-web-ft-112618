@@ -15,11 +15,8 @@ const Navbar = () =>
   <div>
     <NavLink
       to="/"
-     
       exact
- 
       style={link}
-
       activeStyle={{
         background: 'darkblue'
       }}
